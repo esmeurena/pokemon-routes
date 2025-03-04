@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 app.use(express.json())
 
-
+console.log("Hello Pokemon World")
 
 app.get("/pokemon/:pokemonName", async (req,res, next) => {
     try{
